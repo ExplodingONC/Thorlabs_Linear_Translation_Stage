@@ -1,0 +1,10 @@
+You must acquire Kinesis Software from Thorlabs
+https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10285
+before using this MATLAB controller.
+
+Copy the required DLLs to this folder, Including:
+  Thorlabs.MotionControl.DeviceManagerCLI.dll,
+  Thorlabs.MotionControl.GenericMotorCLI.dll,
+  Thorlabs.MotionControl.Tools.Common.dll,
+  Thorlabs.MotionControl.Tools.Logging.dll,
+  Thorlabs.MotionControl.KCube.DCServoCLI.dll
