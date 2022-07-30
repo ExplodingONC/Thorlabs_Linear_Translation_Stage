@@ -14,11 +14,11 @@ classdef Thorlabs_Translation_Stage_Axis < handle
             %THORLABS_TRANSLATION_STAGE_AXIS Construct the instance with serial number of the controller
             
             % load DLL libraries
-            [~] = NET.addAssembly('C:\Users\AORUS\OneDrive\Projects_Matlab\Translation_Stage\DLL\Thorlabs.MotionControl.DeviceManagerCLI.dll');
-            [~] = NET.addAssembly('C:\Users\AORUS\OneDrive\Projects_Matlab\Translation_Stage\DLL\Thorlabs.MotionControl.GenericMotorCLI.dll');
-            [~] = NET.addAssembly('C:\Users\AORUS\OneDrive\Projects_Matlab\Translation_Stage\DLL\Thorlabs.MotionControl.Tools.Common.dll');
-            [~] = NET.addAssembly('C:\Users\AORUS\OneDrive\Projects_Matlab\Translation_Stage\DLL\Thorlabs.MotionControl.Tools.Logging.dll');
-            [~] = NET.addAssembly('C:\Users\AORUS\OneDrive\Projects_Matlab\Translation_Stage\DLL\Thorlabs.MotionControl.KCube.DCServoCLI.dll');
+            [~] = NET.addAssembly('Replace\with\Your\Project\Directory\DLL\Thorlabs.MotionControl.DeviceManagerCLI.dll');
+            [~] = NET.addAssembly('Replace\with\Your\Project\Directory\DLL\Thorlabs.MotionControl.GenericMotorCLI.dll');
+            [~] = NET.addAssembly('Replace\with\Your\Project\Directory\DLL\Thorlabs.MotionControl.Tools.Common.dll');
+            [~] = NET.addAssembly('Replace\with\Your\Project\Directory\DLL\Thorlabs.MotionControl.Tools.Logging.dll');
+            [~] = NET.addAssembly('Replace\with\Your\Project\Directory\DLL\Thorlabs.MotionControl.KCube.DCServoCLI.dll');
             import Thorlabs.MotionControl.DeviceManagerCLI.*;
             import Thorlabs.MotionControl.KCube.DCServoCLI.*;
             import Thorlabs.MotionControl.GenericMotorCLI.Settings.*;
