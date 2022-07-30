@@ -9,8 +9,8 @@ numOfAxis = 3;
 serialNo_X = 'SN of your device';
 serialNo_Y = 'SN of your device';
 serialNo_Z = []; % Leave empty if this axis is not used
-offset_X = 14.00;
-offset_Y = 42.50;
+offset_X = 14.00; % Measurement unit is set in Kinesis software or directly on device, millimeter is used here
+offset_Y = 42.50; % If you are using other units like mil, just change it accordingly
 offset_Z = 0;
 stage = Thorlabs_Translation_Stage( numOfAxis, serialNo_X,serialNo_Y,serialNo_Z );
 
