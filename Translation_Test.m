@@ -6,9 +6,9 @@ tic;
 
 %% initialize
 numOfAxis = 3;
-serialNo_X = '27600159';
-serialNo_Y = '27260933';
-serialNo_Z = [];
+serialNo_X = 'SN of your device';
+serialNo_Y = 'SN of your device';
+serialNo_Z = []; % Leave empty if this axis is not used
 offset_X = 14.00;
 offset_Y = 42.50;
 offset_Z = 0;
