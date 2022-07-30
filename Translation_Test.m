@@ -48,5 +48,5 @@ Return(stage, 2.4);
 fprintf('Movement Finished!\n\n');
 
 %% disconnect
-ShutDown(stage);
+ShutDown(stage); % Always shutdown the connection before exit, or you will need to restart MATLAB to release devices
 toc;
