@@ -7,4 +7,5 @@ Copy the required DLLs to this folder, Including:
   Thorlabs.MotionControl.GenericMotorCLI.dll,
   Thorlabs.MotionControl.Tools.Common.dll,
   Thorlabs.MotionControl.Tools.Logging.dll,
-  Thorlabs.MotionControl.KCube.DCServoCLI.dll
+  Thorlabs.MotionControl.KCube.DCServoCLI.dll,
+or other DLLs you might want to use.
